@@ -1,0 +1,53 @@
+body{
+    background: rgb(30 30, 40);
+}
+
+.container{
+    background: rgb(35 35, 45);
+}
+
+.fixed-height-carousel-lg{
+    max-height:600px !important;
+}
+
+.fixed-height-carousel-abajo{
+    min-height: 400px !important;
+    max-height: 400px !important;
+}
+
+.texto-home{
+    top: 40%;
+    left: 0%;
+}
+
+.texto-home > h1{
+    font-size: 4em;
+    text-shadow: 20px 20px 20px black;
+}
+
+.texto-home > h2{
+    font-size: 2em;
+    text-shadow: 10px 10px 10px black;
+}
+
+.texto-tarjetas{
+    text-shadow: 1px 0 #555, 0px 0 #555, 0 1px #555, 0 0px #555,
+               0px 0px #555, 1px 0px #555, 0px 0px #555, 0px 1px #555;
+}
+
+.section-heading{
+    padding-top: 1em;
+    color: white;
+    text-decoration-style: solid;
+    text-shadow: 20px 20px 20px black;
+    font-weight: 700;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.card-services{
+    background-size: cover;
+}
+
+.texto-equipo{
+    color: white;
+}
