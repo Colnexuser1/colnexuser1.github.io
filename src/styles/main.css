@@ -51,3 +51,16 @@ body{
 .texto-equipo{
     color: white;
 }
+
+.footer-logo{
+    height: 48px;
+}
+
+.header-logo{
+    height: 32px;
+}
+
+.our-clients-list{
+    background: rgb(150, 150, 200);
+    border-radius: 1em;
+}
