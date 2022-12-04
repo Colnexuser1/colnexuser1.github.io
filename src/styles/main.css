@@ -1,250 +1,311 @@
-body{
+body {
     background: rgb(30 30, 40);
 }
 
-body > .container-fluid{
+body>.container-fluid {
     background: rgb(30 30, 44);
 }
 
-.nav-link{
+.nav-link {
     font-size: large;
 }
 
-.texto-home{
+.texto-home {
     top: 40%;
     left: 0%;
 }
 
-.texto-home > h1{
+.texto-home>h1 {
     font-size: 4em;
     text-shadow: 20px 20px 20px black;
 }
 
-.texto-home > h2{
+.texto-home>h2 {
     font-size: 2em;
     text-shadow: 10px 10px 10px black;
 }
 
-.texto-tarjetas{
+.texto-tarjetas {
     text-shadow: 1px 0 #555, 0px 0 #555, 0 1px #555, 0 0px #555,
-               0px 0px #555, 1px 0px #555, 0px 0px #555, 0px 1px #555;
+        0px 0px #555, 1px 0px #555, 0px 0px #555, 0px 1px #555;
 }
 
-.section-heading{
+.section-heading {
     padding-top: 1em;
     color: white;
     text-decoration-style: solid;
     text-shadow: 20px 20px 20px black;
     font-weight: 700;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.carousel-caption-slide-1{
+    top: 30%;
+    text-align: left;
+    left: 70%;
+}
+
+.carousel-caption-slide-1 > h1{
+    font-size: 3em;
 }
 
 
-.texto-equipo{
+.carousel-caption-slide-2{
+    top: 40%;
+    text-align: left;
+    left: 5%;
+}
+
+.carousel-caption-slide-2 > h1{
+    font-size: 3em;
+}
+
+.carousel-caption-slide-3{
+    top: 40%;
+    text-align: left;
+    left: 70%;
+}
+
+.carousel-caption-slide-3 > h2{
+    font-size: 3.5em;
+}
+
+.texto-equipo {
     color: white;
 }
 
-.footer-logo{
+.footer-logo {
     height: 48px;
 }
 
-.header-logo{
+.header-logo {
     height: 32px;
 }
 
-.nav-link.active{
+.nav-link.active {
     border-bottom: 2px solid #999;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     border-bottom: 2px solid #555;
 }
 
-.our-clients-list{
+.our-clients-list {
     background: rgb(150, 150, 200);
     border-radius: 1em;
 }
 
-#initialCarousel{
-    min-height:600px !important;
-    max-height:600px !important;
-}
-
-.fixed-height-carousel-lg{
-    min-height:600px !important;
-    max-height:600px !important;
-}
-
-.fixed-height-carousel-abajo{
+#initialCarousel {
     min-height: 600px !important;
     max-height: 600px !important;
 }
 
-#carouselTeam{
+.fixed-height-carousel-lg {
     min-height: 600px !important;
     max-height: 600px !important;
 }
 
-.card-circular{
+.img-carousel-initial{
+    aspect-ratio: 6/7;
+    object-fit: fill;
+    max-height: 600px;
+}
+
+.fixed-height-carousel-abajo {
+    min-height: 450px !important;
+    max-height: 450px !important;
+}
+
+#carouselTeam {
+    min-height: 450px !important;
+    max-height: 450px !important;
+}
+
+.card-circular {
     width: 65%;
     border-radius: 100%;
     aspect-ratio: 1;
     object-fit: contain;
 }
 
-.card-portrait{
+.card-portrait {
     width: 65%;
     aspect-ratio: 2/3;
     object-fit: contain;
 }
 
-.card-landscape{
+.card-landscape {
     width: 90%;
     aspect-ratio: 17/9;
     object-fit: contain;
     mix-blend-mode: darken;
 }
 
-.card-services{
+.card-services {
     background-size: cover;
 }
 
-.card-clients{
+.card-clients {
     aspect-ratio: 999999/1000000;
     transition: transform .2s;
 }
 
-.card-clients:hover{
+.card-clients:hover {
     transform: scale(1.2);
 }
 
-.modal{
-    overflow-y:auto;
+.modal {
+    overflow-y: auto;
 }
 
 .modal-dialog {
     margin-top: 0rem;
     max-width: 100%;
-  }
+}
 
-  .modal-dialog .modal-content {
+.modal-dialog .modal-content {
     border-radius: 0rem;
-  }
-  
-.modal-dialog .buttons .btn {
-      margin: 0.2rem;
-    }
+}
 
-  
+.modal-dialog .buttons .btn {
+    margin: 0.2rem;
+}
+
+.service-text{
+    visibility: hidden;
+}
+
+.service-item:hover > .service-text{
+    visibility: visible;
+}
 
 @media (max-width: 1400px) {
-    #initialCarousel{
-        min-height:500px !important;
-        max-height:500px !important;
+    #initialCarousel {
+        min-height: 500px !important;
+        max-height: 500px !important;
     }
-    
-    .fixed-height-carousel-lg{
-        min-height:500px !important;
-        max-height:500px !important;
+
+    .fixed-height-carousel-lg {
+        min-height: 500px !important;
+        max-height: 500px !important;
     }
-    
-    .fixed-height-carousel-abajo{
-        min-height: 600px !important;
-        max-height: 600px !important;
+
+    .img-carousel-initial{
+        max-height: 500px;
     }
-    
-    #carouselTeam{
-        min-height: 600px !important;
-        max-height: 600px !important;
+
+    .fixed-height-carousel-abajo {
+        min-height: 300px !important;
+        max-height: 300px !important;
+    }
+
+    #carouselTeam {
+        min-height: 300px !important;
+        max-height: 300px !important;
     }
 }
 
 @media (max-width: 1200px) {
-    #initialCarousel{
-        min-height:480px !important;
-        max-height:480px !important;
-    }
-    
-    .fixed-height-carousel-lg{
-        min-height:480px !important;
-        max-height:480px !important;
-    }
-    
-    .fixed-height-carousel-abajo{
-        min-height: 600px !important;
-        max-height: 600px !important;
+    #initialCarousel {
+        min-height: 480px !important;
+        max-height: 480px !important;
     }
 
-    #carouselTeam{
-        min-height: 600px !important;
-        max-height: 600px !important;
+    .fixed-height-carousel-lg {
+        min-height: 480px !important;
+        max-height: 480px !important;
+    }
+
+    .img-carousel-initial{
+        max-height: 480px;
+    }
+
+    .fixed-height-carousel-abajo {
+        min-height: 300px !important;
+        max-height: 300px !important;
+    }
+
+    #carouselTeam {
+        min-height: 300px !important;
+        max-height: 300px !important;
     }
 }
 
 
 @media (max-width: 992px) {
-    #initialCarousel{
-        min-height:380px !important;
-        max-height:380px !important;
-    }
-    
-    .fixed-height-carousel-lg{
-        min-height:380px !important;
-        max-height:380px !important;
-    }
-    
-    .fixed-height-carousel-abajo{
-        min-height: 600px !important;
-        max-height: 600px !important;
+    #initialCarousel {
+        min-height: 380px !important;
+        max-height: 380px !important;
     }
 
-    #carouselTeam{
-        min-height: 600px !important;
-        max-height: 600px !important;
+    .fixed-height-carousel-lg {
+        min-height: 380px !important;
+        max-height: 380px !important;
+    }
+
+    .img-carousel-initial{
+        max-height: 380px;
+    }
+
+    .fixed-height-carousel-abajo {
+        min-height: 300px !important;
+        max-height: 300px !important;
+    }
+
+    #carouselTeam {
+        min-height: 300px !important;
+        max-height: 300px !important;
     }
 }
 
 @media (max-width: 768px) {
-    #initialCarousel{
-        min-height:300px !important;
-        max-height:300px !important;
-    }
-    
-    .fixed-height-carousel-lg{
-        min-height:300px !important;
-        max-height:300px !important;
-    }
-    
-    .fixed-height-carousel-abajo{
-        min-height: 450px !important;
-        max-height: 450px !important;
+    #initialCarousel {
+        min-height: 300px !important;
+        max-height: 300px !important;
     }
 
-    #carouselTeam{
-        min-height: 450px !important;
-        max-height: 450px !important;
+    .fixed-height-carousel-lg {
+        min-height: 300px !important;
+        max-height: 300px !important;
+    }
+
+    .img-carousel-initial{
+        max-height: 300px;
+    }
+
+    .fixed-height-carousel-abajo {
+        min-height: 300px !important;
+        max-height: 300px !important;
+    }
+
+    #carouselTeam {
+        min-height: 300px !important;
+        max-height: 300px !important;
     }
 }
 
 @media (max-width: 576px) {
-    #initialCarousel{
-        min-height:150px !important;
-        max-height:150px !important;
+    #initialCarousel {
+        min-height: 150px !important;
+        max-height: 150px !important;
     }
-    
-    .fixed-height-carousel-lg{
-        min-height:150px !important;
-        max-height:150px !important;
+
+    .fixed-height-carousel-lg {
+        min-height: 150px !important;
+        max-height: 150px !important;
     }
-    
-    .fixed-height-carousel-abajo{
+
+    .img-carousel-initial{
+        max-height: 150px;
+    }
+
+    .fixed-height-carousel-abajo {
         min-height: 300px !important;
         max-height: 300px !important;
     }
 
-    #carouselTeam{
+    #carouselTeam {
         min-height: 300px !important;
         max-height: 300px !important;
     }
 }
-
