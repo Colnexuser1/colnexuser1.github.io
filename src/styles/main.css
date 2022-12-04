@@ -195,13 +195,13 @@ body>.container-fluid {
     }
 
     .fixed-height-carousel-abajo {
-        min-height: 300px !important;
-        max-height: 300px !important;
+        min-height: 380px !important;
+        max-height: 380px !important;
     }
 
     #carouselTeam {
-        min-height: 300px !important;
-        max-height: 300px !important;
+        min-height: 380px !important;
+        max-height: 380px !important;
     }
 }
 
